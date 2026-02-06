@@ -3,16 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
+
+.heading-bg{
     position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Arial', sans-serif;
-    font-size: 2.5rem;
-    color: #e40000;
-    text-align: top;
-    width: 80%;
+    width: 100%;
+    height: 100%;
+    color: red;
+    display: flex;
+    align-items: top;
+    justify-content: center;
 }
 
 :root{
@@ -21,7 +20,7 @@ h1{
 }
 
 body{
-    background-image: url(https://wallpapers.com/images/hd/white-full-screen-with-margins-gx50dujhnc50lupy.jpg);
+    background-image: url(https://i.pinimg.com/originals/2b/95/0e/2b950edf5909df6d0d4a2848e1809a5a.jpg);
 }
 
 .wrapper{
